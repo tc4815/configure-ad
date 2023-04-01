@@ -48,7 +48,7 @@ When setting up resources in Azure, create the Domain Controller VM (Windows Ser
 <img src="https://imgur.com/QQlwzzy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Set Domain Controller’s NIC Private IP address to be static (see above). Then create a VM within the same Resource Group and network as the Domain Controller.
+Set Domain Controller’s NIC Private IP address to be static (see above). Then create a VM ("Client-1") within the same Resource Group and network as the Domain Controller.
 </p>
 <br />
 

@@ -79,26 +79,26 @@ Login to DC-1 using the same Microsoft Remote Desktop (if on MacOS) and open Win
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/JUjGJN7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Switch back to Client-1 and observe traffic in Command Prompt is now flowing between Client-1 and the Domain Controller (DC-1). The ping has thus suceeded (as shown above). 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/gzx1Lbi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log back in to DC-1 and launch the Server Manager dashboard if not already open. Install Active Directory Domain Services. Make sure "Active Directory Domain Services" is selected.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/DrUiM0X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After you install Active Directory Domain Services, promote it as a DC by clicking on the yellow flag (top right). Make sure you "add a new forest" and name it anything (in this case I selected "mydomain.com" as seen above).
 </p>
 <br />
 

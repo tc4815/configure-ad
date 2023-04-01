@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Set up resources in Azure
-- Ensure connectivity between the Client-1 and Domain Controller
+- Ensure connectivity between the Client-1 and Domain Controller (DC-1)
 - Install Active Directory
 - Create and Admin and Normal User account in Active Directory
 - Join Client-1 to Domain
@@ -53,26 +53,27 @@ Set Domain Controller’s NIC Private IP address to be static (see above). Then 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/u5O6xfh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using Microsoft Remote Desktop (for MacOS as seen above), login to Client-1 VM using it's public IP address. Use the username ("labuser" in this case) and password you created when set-up the VM "Client-1".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tepWnu1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using Command Prompt, ping DC-1’s private IP address (found via Azure) utilizing the command ping -t <ip address> (perpetual ping). You should see "Request Timed Out" due to DC-1's firewall blocking ICMP-v4 traffic (as seen above).
+
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/oJ9iBnB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login to DC-1 using the same Microsoft Remote Desktop (if on MacOS) and open Windows Defender Firewall (search in windows once logged in to DC-1). Locate and enable ICMPv4 in on the local windows Firewall (see above).
 </p>
 <br />
 

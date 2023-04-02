@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure) - </h1>
+<h1>On-premises Active Directory Deployed in the Cloud (Microsoft Azure) - </h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 <h2>:construction:   UNDER CONSTRUCTION  :construction:<h2>
@@ -98,31 +98,31 @@ Log back in to DC-1 and launch the Server Manager dashboard if not already open.
 <img src="https://imgur.com/DrUiM0X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After you install Active Directory Domain Services, promote it as a DC by clicking on the yellow flag (top right). Make sure you "add a new forest" and name it anything (in this case I selected "mydomain.com" as seen above).
+After you install Active Directory Domain Services, promote it as a DC by clicking on the yellow flag (top right). Make sure you "add a new forest" and name it anything (in this case I selected "mydomain.com" as seen above). The VM will then need to reboot / re-establish connection with the DNS. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/g0Uqqgc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log back into the DC-1 VM only this time using the credentials created when promoting it to a Domain Controller. Use "mydomain.com\labuser" as the username instead of "labuser". Use your original password when you first created DC-1.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vu2pzLG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ Once back in DC-1, open "Active Directory Users and Computers" from the Search/Start menu and create a new Organizational Unit (OU) named "_EMPLOYEES" and another one named "_ADMINS".
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/EiHGGJJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Also using "Active Directory Users and Computers", create a new employee named Jane Doe with username of "Jane_Admin". Once created, right click "Properties" on Jane Doe and add to the "Domain Admins" security group as seen above.
 </p>
 <br />
 

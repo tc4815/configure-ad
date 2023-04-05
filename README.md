@@ -165,7 +165,7 @@ When prompted, enter the domain controller credentials you set in the previous s
 <img src="https://imgur.com/tGR75X0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log back into Client-1 using "mydomain.com\jane_admin" and the associated admin password this time. Right click the Start button again and select "System" -> "Remote Desktop" -> "Select users that can remotely access this PC". Click "Add" and type "Domain" to seach and add the group named "Domain Users". This allows you to add a group of users instead of adding each user one at a time. Click "OK" to apply the new persmission. 
 </p>
 <br />
  

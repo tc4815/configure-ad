@@ -149,20 +149,20 @@ Once logged back into Client-1, launch Command Prompt and type "whoami" and you 
 <img src="https://imgur.com/x9SlLDN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now you can right-click on the Start button and select "System". Click "Rename this PC" then click the "Change" button. Rename it under Domain to "mydomain.com". Client-1 will then need to restart again.
+Now you can right-click on the Start button and select "System". Click "Rename this PC" then click the "Change" button. Rename it under Domain to "mydomain.com" as seen in the steps numbered above.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/kCe87OE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When prompted, enter the domain controller credentials you set in the previous steps. Client-1 will then need to restart itself.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tGR75X0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

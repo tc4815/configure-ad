@@ -170,18 +170,18 @@ Log back into Client-1 using "mydomain.com\jane_admin" and the associated admin 
 <br />
  
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/1U8gK74.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in DC-1 using Active Directory Users and Computers, you can now see that users have been added by clicking on "Users" -> "Domain Users" -> "Members" tab as seen above.
 </p>
 <br />
  
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/TC6CwSZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Still in DC-1, launch PowerShell_ise as an admin, create a new file and paste the contents of the following script into it. The script used can be found here: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 - this script creates 1000 accounts with the same password ("Password1") within the "_EMPLOYEES" organization unit. Run the script and observe the accounts being created as can be seen above. 
 </p>
 <br />
  

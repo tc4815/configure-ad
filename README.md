@@ -203,7 +203,7 @@ Now you are able to choose any of the users created in the previous steps and lo
 <img src="https://imgur.com/IctlhRx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The above example shows proof of login and hostname of the user "bat.hupapa" once logged into the Virtual Machine "Client-1". This concludes the tutorial on deploying on-premises Active Directory utilizing Virtual Machines - a domain controller and client(s) - within Microsoft Azure. 
+The above example shows proof of login and hostname of the user "bat.hupapa" once logged into the Virtual Machine "Client-1". This concludes the tutorial of deploying on-premises Active Directory utilizing Virtual Machines - a domain controller and client(s) - within Microsoft Azure. 
 </p>
 <br />
  

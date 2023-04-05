@@ -85,7 +85,7 @@ Switch back to Client-1 and observe traffic in Command Prompt is now flowing bet
 <img src="https://imgur.com/gzx1Lbi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Log back in to DC-1 and launch the Server Manager dashboard if not already open. Install Active Directory Domain Services. Make sure "Active Directory Domain Services" is selected.
+Log back in to DC-1 and launch the Server Manager dashboard if not already open. Install Active Directory Domain Services. Make sure "Active Directory Domain Services" is selected. Click through prompts to install Active Directory onto Domain Controller (DC-1).
 </p>
 <br />
 
